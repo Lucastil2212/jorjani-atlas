@@ -56,8 +56,8 @@ These are recorded in `meta.known_gaps` and on the Coverage page. They were not 
 
 | Limit | What would close it |
 | --- | --- |
-| 90 spoken-name targets, none listened to | Listen to the timecoded passage and record the spoken form |
-| Six historical originals still required | The closure line on each Edition 9 dossier (Bahnson intelligence role, medieval aerial-reporting edict, full Puharich manuscript, the interview’s exact 1947 document copy, Vatican/Magenta custody, Stephenson–Brown telegram) |
+| 90 Part 3 name windows | An independent machine transcript is recorded. 36 match the indexed spelling, 42 are phonetic variants, and 12 still do not secure the indexed name. Human listening is still zero |
+| Five historical closure conditions | A Bahnson intelligence file, a medieval aerial-reporting edict, the speaker’s exact 1947 printout, Vatican or Magenta custody, and a Stephenson–Josephine Brown telegram. The Puharich scan was retrieved and described. The March 1997 Klass comparison of the Schulgen memo was read |
 | 221 claims with no typed relationship | Add an edge only when the wording names both endpoints |
 | Six document cards with no exact public URL | An item-level catalog record for the specific work, not a category page |
 

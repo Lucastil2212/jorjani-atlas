@@ -17,6 +17,13 @@ Publication changes inside that count:
 
 `python3 scripts/validate.py` checks referential integrity, those links, the edition snapshots, the schema keys, and the public-release files.
 
+Audio and document pass, 29 October 2026:
+
+- The Part 3 YouTube audio was downloaded locally and not added to this repository.
+- All 90 indexed name windows were transcribed with faster-whisper small, English, with no name prompt. 36 match the indexed spelling, 42 are phonetic variants, and 12 do not secure the indexed name. Human listening remains zero.
+- The RT17 Puharich scan was retrieved: 359 pages, SHA256 `cadc136820a123ae705a8170b244fbc43c995d7fccf839322db0c7e3c53aa099`. The cover and 2016 preface are text. The manuscript body is an image scan. The file is not in this repository.
+- Skeptics UFO Newsletter 44, March 1997, was read. It quotes Robert Todd’s authentic-versus-1986 Schulgen wording. It is not the speaker’s printout.
+
 Not done here:
 
 - The 90 name targets were not listened to.

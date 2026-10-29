@@ -1,0 +1,732 @@
+{
+  "date": "2026-10-29",
+  "source_id": "QjU7FfTcACE",
+  "method": "Independent machine transcript of the Part 3 YouTube audio at each indexed window. faster-whisper small, int8, English, beam size 5, no name prompt. Each window runs from five seconds before the indexed start through eight seconds after the indexed end.",
+  "counts": {
+    "indexed_spelling_heard": 36,
+    "phonetic_variant_heard": 42,
+    "indexed_name_not_secured": 12
+  },
+  "windows": [
+    {
+      "id": "e6-listen-audit-ambiguity-041",
+      "name": "Jason Reza Jorjani",
+      "status": "phonetic_variant_heard",
+      "window_start": 10,
+      "window_end": 25,
+      "transcript": "At some point, some group of people broke time. I'm here with Jason Giorgiani, round three. You're so encyclopedic in your knowledge of UFO history. I think you have a very clear worldview. These things aren't up..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-042",
+      "name": "Jesse Michels",
+      "status": "phonetic_variant_heard",
+      "window_start": 257,
+      "window_end": 272,
+      "transcript": "The conversation was in L.A. and we filmed in a restaurant, so this is the first time I've been graced with, you know, the Jesse Michaels abode. It's a slight, slight upgrade for sure. And yeah, just, you know, we're making progress trying to make moves."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-043",
+      "name": "Andrija Puharich",
+      "status": "phonetic_variant_heard",
+      "window_start": 1860,
+      "window_end": 1875,
+      "transcript": "intelectronics. Because intelectron wasn't just the name of a corporation, it was the name of a whole concept that Puharaj was developing as a sort of more complex and self-conscious form of"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-044",
+      "name": "Thomas Townsend Brown",
+      "status": "indexed_spelling_heard",
+      "window_start": 54,
+      "window_end": 69,
+      "transcript": "They take place when humanity is on the verge of figuring something out for itself. Townsend Brown was literally saying, every time I have a breakthrough, this group in the Bahamas, they kind of suck up the tech, they suck up the IP. When we look at Magenta in 19..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-045",
+      "name": "William Stephenson",
+      "status": "phonetic_variant_heard",
+      "window_start": 938,
+      "window_end": 956,
+      "transcript": "a decade after that breakthrough was made in Nazi Germany. Well, you can get even more specific, which is wild, that William Stevenson was working at that office at Rockefeller Center. He was Churchill's super spy. He was in Fleming's inspiration for James Bond, and he was in direct touch with..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-046",
+      "name": "William Donovan",
+      "status": "indexed_spelling_heard",
+      "window_start": 723,
+      "window_end": 740,
+      "transcript": "collect capability and material, which involved elements of the OSS, like Wild Bill Donovan, right? A lot of people are under the impression that the OSS transformed immediately into the CIA after the war. That's not the case."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-047",
+      "name": "Allen Dulles",
+      "status": "phonetic_variant_heard",
+      "window_start": 634,
+      "window_end": 650,
+      "transcript": "system with this electrogravity system. And Alan Dulles actually went and observed the functioning of this craft at that facility in 1944 before the war was over."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-048",
+      "name": "Otto Skorzeny",
+      "status": "phonetic_variant_heard",
+      "window_start": 831,
+      "window_end": 847,
+      "transcript": "to this organization at a fundamental level, the most important of which was Otto Scorzani. So Otto Scorzani was the head of special operations and psychological warfare and the director of the most important commando raids during Nazi Germany."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-049",
+      "name": "Hans Kammler",
+      "status": "phonetic_variant_heard",
+      "window_start": 1077,
+      "window_end": 1094,
+      "transcript": "There's some files that have emerged that document the interrogation and American processing of Hans Kamler. Now, General Hans Kamler of the SS was the head of the SCOTA works."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-050",
+      "name": "Wernher von Braun",
+      "status": "phonetic_variant_heard",
+      "window_start": 1089,
+      "window_end": 1106,
+      "transcript": "of the SS was the head of the Skoda works. And he was also Vernevon Braun's boss. Von Braun was a major who worked under General Kamler in the SS. Kamler was presumed dead."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-051",
+      "name": "J. P. Morgan",
+      "status": "indexed_spelling_heard",
+      "window_start": 669,
+      "window_end": 685,
+      "transcript": "the Dulles Brothers through that company were funding the rise of Nazi Germany in the 1930s. Together with J.P. Morgan, also a major backer of Nazi Germany, and Ford and other elites. And so there was a contingent of American..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-052",
+      "name": "Tom DeLonge",
+      "status": "phonetic_variant_heard",
+      "window_start": 315,
+      "window_end": 331,
+      "transcript": "connections to organized crime, which we can talk about in a minute, and the Nazi underground too. And he thinks that that when Tom DeLong actually wrote this book, you know, Secret Machines, he talks about this Maynard consortium, which is this international sort of corporation that controls the UFO issue, Ben Rich."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-053",
+      "name": "Sekret Machines",
+      "status": "phonetic_variant_heard",
+      "window_start": 318,
+      "window_end": 332,
+      "transcript": "underground too. And he thinks that that when Tom DeLong actually wrote this book, you know, Secret Machines, he talks about this Maynard consortium, which is this international sort of corporation that controls the UFO issue. Ben Rich, who is the director of"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-054",
+      "name": "Jacques Vallée",
+      "status": "phonetic_variant_heard",
+      "window_start": 213,
+      "window_end": 228,
+      "transcript": "You're so encyclopedic in your knowledge of UFO history, but I think you're one of the few people, and I always say this along with Jacques Valais and maybe a few others who really do a lot of sense-making and analysis as to what we're seeing. It's not just data."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-055",
+      "name": "Ahnenerbe",
+      "status": "indexed_name_not_secured",
+      "window_start": 536,
+      "window_end": 552,
+      "transcript": "within a year of the recovery at Magenta. Also within the same timeframe, the Germans established the An-an-Arabi, which was tasked with investigating the origins of the Aryan race in Atlantis, or what they called Thula, which ultimately I think that"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-056",
+      "name": "Viktor Schauberger",
+      "status": "phonetic_variant_heard",
+      "window_start": 1273,
+      "window_end": 1287,
+      "transcript": "And then I think the the Škoda works work was very real and there's Victor Schauburger who was recruited to work under Hans Kamler had plans for a flying saucer that you can all look up and see today and you have a quote from"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-057",
+      "name": "Rudolf Schriever",
+      "status": "phonetic_variant_heard",
+      "window_start": 1282,
+      "window_end": 1296,
+      "transcript": "plans for a flying saucer that you can all look up and see today. And you have a quote from Rudolph Schreiber who says, we flew a flying saucer to 40,000 feet and it took a few seconds. There's a lot of documented, you know, Richard Mita, another engine."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-058",
+      "name": "Richard Miethe",
+      "status": "phonetic_variant_heard",
+      "window_start": 1304,
+      "window_end": 1320,
+      "transcript": "day. So you have a lot of these people make their way to the United States, a lot of accounts of Richard Mita possibly working on the Avrocar project under a British aircraft, a guy named John Frost. He also recruited this guy, Henry Kiwanda."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-059",
+      "name": "Henri Coandă",
+      "status": "indexed_name_not_secured",
+      "window_start": 1313,
+      "window_end": 1329,
+      "transcript": "bro-car project under a actually British aircraft, a guy named John Frost. He also recruited this guy, Henry Kiwanda, for which the Kiwanda effect is named, which gives these flying saucers their signature wobble that a lot of people see. There's even a quote from..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-060",
+      "name": "NICAP",
+      "status": "indexed_spelling_heard",
+      "window_start": 1324,
+      "window_end": 1339,
+      "transcript": "flying saucers, they're sort of signature wobble that a lot of people see. There's even a quote from, you know, so Townsend Brown formed NICAP, which was, you know, the first civilian UFO research group, and he said, there are UFOs that are ours and UFOs that are theirs. And this is in the fifth."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-061",
+      "name": "Agnew Bahnson",
+      "status": "phonetic_variant_heard",
+      "window_start": 1360,
+      "window_end": 1377,
+      "transcript": "crash and you know what's what's fascinating is uh he is then funded by uh Agnew Bonson. Agnew Bonson is this air conditioning magnate but he's kind of eccentric and you know very intelligent as well he founds the Institute of Field Physics which convenes"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-062",
+      "name": "John Wheeler",
+      "status": "indexed_spelling_heard",
+      "window_start": 6459,
+      "window_end": 6477,
+      "transcript": "in that presentation, I come around to making the case for an informational ontology where essentially we are, as John Wheeler believed, in a computational cosmos. And either some kind of an artificial intelligence that's managing that computational system"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-063",
+      "name": "Peter Bergmann",
+      "status": "phonetic_variant_heard",
+      "window_start": 1379,
+      "window_end": 1394,
+      "transcript": "Um, yeah, you know, real or fine men, you know, Freeman Dyson, like, name your top physicist at the time, Peter Bergman. Um, and the, the main sort of physicist there convening everybody is Bryce DeWitt. He's also fascinated by anti-gravity and he."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-064",
+      "name": "Greg Mallozzi",
+      "status": "indexed_name_not_secured",
+      "window_start": 1527,
+      "window_end": 1543,
+      "transcript": "And also, if anybody knew how to fake an alien abduction, it was Puharic. He's on record faking, you know, my good friend Greg Milotsi has been on the show, he's done an amazing documentary on Puharic that is going to be coming out called Mind Traveler. And it depicts basic..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-065",
+      "name": "Uri Geller",
+      "status": "indexed_spelling_heard",
+      "window_start": 123,
+      "window_end": 139,
+      "transcript": "None of the sightings are all due to man-made spacecraft. He's on record faking an alien abduction with Uri Geller. Puharic had used psychotronic machines to psychotronically manipulate people all over the place to carry out intelligence operations."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-066",
+      "name": "Bob Beckwith",
+      "status": "indexed_spelling_heard",
+      "window_start": 1626,
+      "window_end": 1643,
+      "transcript": "expanding his entire career. And so one of the other cases like this is that there was this guy, Bob Beckwith, who was, I guess you could say, associate of Puharic, collaborator. And Beckwith goes to get some..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-067",
+      "name": "Intelectron Corporation",
+      "status": "indexed_name_not_secured",
+      "window_start": 1856,
+      "window_end": 1871,
+      "transcript": "Look, before I wrote this whole book on Puharj, by the way, the title of the book is Intellectronix. Because Intellectron wasn't just the name of a corporation. It was the name of a whole concept that Puharj was developing as a sort of..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-068",
+      "name": "Intelectronics",
+      "status": "indexed_name_not_secured",
+      "window_start": 4753,
+      "window_end": 4769,
+      "transcript": "Right, and so I think that you know the main point of the book I wrote on Pouharch into electronics is to tease out What he meant by this term? namely that because Psychotronic technologies of the kind he was responsible for developing"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-069",
+      "name": "Louis Jolyon West",
+      "status": "indexed_spelling_heard",
+      "window_start": 1748,
+      "window_end": 1763,
+      "transcript": "real. And, you know, you even have, if you read Tom O'Neill's chaos, documented interactions between Jolly West, who is, you know, one of the heads of MKUltra, you know, corresponding with Sidney Gottlieb, who is the grand architect of the entire program, meets..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-070",
+      "name": "CHAOS",
+      "status": "indexed_spelling_heard",
+      "window_start": 1745,
+      "window_end": 1761,
+      "transcript": "it's stuff that John Marks wrote about is very real. And you even have, if you read Tom O'Neill's Chaos, documented interactions between Jolly West, who is one of the heads of MKUltra, corresponding with Sidney Gottlieb, who is the grand architect of-"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-071",
+      "name": "Ewen Cameron",
+      "status": "phonetic_variant_heard",
+      "window_start": 1901,
+      "window_end": 1917,
+      "transcript": "I talk about the origins of MKUltra and how it's always associated with Sydney Gottlieb and Ewan Cameron, and these various doctors who used known techniques like-"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-072",
+      "name": "Sidney Gottlieb",
+      "status": "phonetic_variant_heard",
+      "window_start": 1901,
+      "window_end": 1917,
+      "transcript": "I talk about the origins of MKUltra and how it's always associated with Sydney Gottlieb and Ewan Cameron, and these various doctors who used known techniques like-"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-073",
+      "name": "Neil McCasland",
+      "status": "indexed_name_not_secured",
+      "window_start": 2153,
+      "window_end": 2168,
+      "transcript": "And then some of these cases in isolation, you know, I just had Michael Shermer on and he was like there's nothing weird about the Disappearance of General Neil Macassan. I'm like we're in isolation that story is completely significant. No, I don't it's just totally random What do you mean?"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-074",
+      "name": "Carl Grillmair",
+      "status": "phonetic_variant_heard",
+      "window_start": 2205,
+      "window_end": 2224,
+      "transcript": "FBI and every intel agency we have it's all hands on deck. What are you talking about? That's insane Cases like that or Carl Grillmare who was one of a few people with access to the very very Rubin observatory first access Which detects changes in you know the astro"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-075",
+      "name": "Nuno Loureiro",
+      "status": "phonetic_variant_heard",
+      "window_start": 2241,
+      "window_end": 2260,
+      "transcript": "for ever being released to the public. And he gets horrifically killed along with Nuno Lerero, who is probably foremost in the field for magnetic reconnection. So, nuclear fusion is this big holy grail."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-076",
+      "name": "John Jacob Astor",
+      "status": "indexed_spelling_heard",
+      "window_start": 2720,
+      "window_end": 2736,
+      "transcript": "Yes, why there were multiple rivals with the Yes Okay, John Jacob Astor who died that night. Yeah had decided to fund and back Tesla He after Morgan screwed Tesla is this true. Yes is 100% is the most"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-077",
+      "name": "Pachita",
+      "status": "phonetic_variant_heard",
+      "window_start": 3416,
+      "window_end": 3431,
+      "transcript": "So, Pujaric was doing work in Mexico with this shaman called Pashita, which he had developed a relationship with in the 1950s back when he was doing the tests with psilocybin and Amonita, Muscaria, right? So, he..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-078",
+      "name": "Diana Walsh Pasulka",
+      "status": "phonetic_variant_heard",
+      "window_start": 3724,
+      "window_end": 3739,
+      "transcript": "stories are like, you stare into the abyss long enough, the abyss stares back or something. You know, you read Diana Posolka's great book, American Cosmic, and the first half is like, this is a Psyop built up in a Hollywood studio, and then the second half is like, I've fallen in."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-079",
+      "name": "Hal Puthoff",
+      "status": "phonetic_variant_heard",
+      "window_start": 4305,
+      "window_end": 4321,
+      "transcript": "and scalar potentials. And we're having a wild conversation last night with Stuart Hameroff and Hal Putoff about this. And Stuart Hameroff of course is a collaborator of Roger Penrose, his ideas of consciousness. And..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-080",
+      "name": "Tom Bearden",
+      "status": "indexed_spelling_heard",
+      "window_start": 4019,
+      "window_end": 4035,
+      "transcript": "Soviet sort of Tesla society it's wild that he was writing and talking about this in the late 70s early 80s Because Thomas Bearden was this Navy guy who was also talking about you know these mega-death weapons from the Soviets They work together that's fascinating because he's"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-081",
+      "name": "Stuart Hameroff",
+      "status": "indexed_spelling_heard",
+      "window_start": 4305,
+      "window_end": 4321,
+      "transcript": "and scalar potentials. And we're having a wild conversation last night with Stuart Hameroff and Hal Putoff about this. And Stuart Hameroff of course is a collaborator of Roger Penrose, his ideas of consciousness. And..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-082",
+      "name": "Ingo Swann",
+      "status": "phonetic_variant_heard",
+      "window_start": 4331,
+      "window_end": 4346,
+      "transcript": "and scalar potentials. So it'd be wild if we found a carrier wave for consciousness. You know, Ingo Swan was able to, and all these, you know, telepathic people are able to somehow affect things through, you know, hard shielding and things."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-083",
+      "name": "Round Table Foundation",
+      "status": "indexed_spelling_heard",
+      "window_start": 4389,
+      "window_end": 4406,
+      "transcript": "production of PK back in the 1950s, when he was doing tests with Faraday cages at the Roundtable Foundation, where his initial hypothesis, I believe it was in Maryland or Maine that"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-084",
+      "name": "Cleve Backster",
+      "status": "phonetic_variant_heard",
+      "window_start": 4523,
+      "window_end": 4538,
+      "transcript": "self-reflection because, look, plants are capable of sight. Cleve Baxter found this. By the way, he worked with Puarch. Puarch and Baxter were working. This guy was connected to everybody. You know, he was connected to Dr. Putoff. So..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-085",
+      "name": "G. W. F. Hegel",
+      "status": "indexed_spelling_heard",
+      "window_start": 4677,
+      "window_end": 4694,
+      "transcript": "mind-controlled cyborg. I can't prove you're not a mind-controlled cyborg. That's where consciousness comes in, okay? And that's, so Hegel, Garrick Hegel, was right to believe that consciousness is a dialectical develop-"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-086",
+      "name": "Ted Serios",
+      "status": "phonetic_variant_heard",
+      "window_start": 4711,
+      "window_end": 4729,
+      "transcript": "are manipulated, including psychotronically, right? And we can see from some very adept psychics, like Ted Sirios or Ted Owens, that it doesn't correlate to self-reflectiveness very much at all. In fact, it might kind of be a negative correlation, right?"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-087",
+      "name": "Philip J. Corso",
+      "status": "indexed_spelling_heard",
+      "window_start": 4830,
+      "window_end": 4849,
+      "transcript": "you know, integrated circuits, you know, lasers. Think about all the things that have led to modern computing. If you take the Philip J. Corso narrative at face value that that was transferred from, you know, alien derived material. Integrated circuits, lasers and fiber optics. Those are..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-088",
+      "name": "Annie Jacobsen",
+      "status": "phonetic_variant_heard",
+      "window_start": 4952,
+      "window_end": 4968,
+      "transcript": "and the thing is you have to hide that because that's worse than maybe aliens crashing here. That's kind of what Annie Jacobson hints at in her book, Area 51, she thinks that they were like on the hunt for the Hortons. Anything Kenneth Arnold saw? It's in the twining memo."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-089",
+      "name": "Air Materiel Command",
+      "status": "indexed_spelling_heard",
+      "window_start": 4996,
+      "window_end": 5011,
+      "transcript": "want to see this because this is a really important data point so for the audience Nathan Twining was head of air material command who was responsible for all aircraft development in the Air Force and you know he's writing this memo after Roswell in 1947 and after Kenneth Arnold's sighting and he"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-090",
+      "name": "Mount Senganmori",
+      "status": "phonetic_variant_heard",
+      "window_start": 5190,
+      "window_end": 5207,
+      "transcript": "there, you know, they have the Fukushima, you know, civilian nuclear grid, they built a mountain, they built a museum on a mountain called Mount Sengon Mori, which is dedicated to UFOs, because UFOs show up there so constantly. So the Occam's razor almost, if you accept that..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-091",
+      "name": "Jesse Marcel",
+      "status": "indexed_spelling_heard",
+      "window_start": 5210,
+      "window_end": 5225,
+      "transcript": "Well, which was the site of the largest site of tactical nukes in the world at the time Something weird happened there and Jesse Marcel's, you know testimony should just be taken at face value that this thing is just alien The material recovered"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-092",
+      "name": "Eric Henry Wang",
+      "status": "indexed_name_not_secured",
+      "window_start": 5635,
+      "window_end": 5649,
+      "transcript": "Simon is a UFO researcher who is researching the Aztec crash, and he keeps running into this name, Eric Henry Wing, who's this head of special projects, kind of genius Nazi operation paperclip science."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-093",
+      "name": "Kirtland Air Force Base",
+      "status": "indexed_spelling_heard",
+      "window_start": 5648,
+      "window_end": 5665,
+      "transcript": "paperclip scientist, and yeah, head of special projects at Wright Patterson, and he makes his way to Kirtland Air Force Base where he's running a lot of, you know, atomic special weapons stuff, and Bill Steinman shows up at his house after he had passed. I believe"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-094",
+      "name": "Oberammergau",
+      "status": "indexed_spelling_heard",
+      "window_start": 5680,
+      "window_end": 5696,
+      "transcript": "And also doing Nazi tech retrieval stuff too. He was at Oberammergau in Germany before going to Harvard, actually, and had intelligence ties basically since his early 20s."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-095",
+      "name": "Nassim Nicholas Taleb",
+      "status": "indexed_spelling_heard",
+      "window_start": 5867,
+      "window_end": 5882,
+      "transcript": "We were talking about the successful splitting of an atom, or discovering DNA's structure. Economist and philosopher Nassim Taleb writes about the fact that when somebody has skin in the game, they are less likely to be wrong. When you have something to lose, you're not going to lose."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-096",
+      "name": "Lyn Buchanan",
+      "status": "phonetic_variant_heard",
+      "window_start": 6059,
+      "window_end": 6075,
+      "transcript": "kinds of geophysical cataclysms that remote viewers have seen, like, for example, Lynn Buchanan, or the project that was run by Stefan Schwartz, where they looked at the year 2050. The kind of geophysical"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-097",
+      "name": "Stephan A. Schwartz",
+      "status": "phonetic_variant_heard",
+      "window_start": 6062,
+      "window_end": 6079,
+      "transcript": "Cataclysms that remote viewers have seen, like for example, Lynn Buchanan, or the project that was run by Stefan Schwartz where they looked at the year 2050. The kind of geophysical cataclysm where they're describing earthquakes and"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-098",
+      "name": "Arthur Koestler",
+      "status": "phonetic_variant_heard",
+      "window_start": 6545,
+      "window_end": 6560,
+      "transcript": "happening, and we see these sort of things show up, and then it causes us to keep going down our path. And if you read, I don't know, Arthur Kessler wrote a great book called The Roots of Coincidence. Sometimes when people's lives get extremely meaningful, they describe it as extremely meaningful."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-099",
+      "name": "Melvin Vopson",
+      "status": "phonetic_variant_heard",
+      "window_start": 6600,
+      "window_end": 6616,
+      "transcript": "My presentation at Deep Tech Week is this idea developed by a physicist called Melvin Vopsen. He's working out of the UK, and I forget whether it's Cambridge or another institution that he's based there. But in any case, Melvin Vopsen."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-100",
+      "name": "Jean-Pierre Petit",
+      "status": "phonetic_variant_heard",
+      "window_start": 6966,
+      "window_end": 6984,
+      "transcript": "had this sort of twin universe model and, you know, this kind of Janus model of the universe. And John Pierre Petit is also a magnetohydrodynamics researcher in southern France who believes some of this stuff. I wonder if there's something about dark matter."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-101",
+      "name": "Rupert Sheldrake",
+      "status": "phonetic_variant_heard",
+      "window_start": 7136,
+      "window_end": 7152,
+      "transcript": "development on the planet, form is conserved. And one mechanism that could explain that is what Rupert Sheldraig calls morphogenetic fields or formative causation, which is a kind of reformulation really of the formal cause that Aristotle was talking about, so that there"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-102",
+      "name": "Terry Jamison",
+      "status": "indexed_spelling_heard",
+      "window_start": 7405,
+      "window_end": 7420,
+      "transcript": "two physical instantiations. One of them that I look at is the case of these psychic twins, Terry and Linda Jamison. They're identical twins who, you know, became famous for certain striking precognitive predictions that they made depending."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-103",
+      "name": "Linda Jamison",
+      "status": "indexed_spelling_heard",
+      "window_start": 7405,
+      "window_end": 7420,
+      "transcript": "two physical instantiations. One of them that I look at is the case of these psychic twins, Terry and Linda Jamison. They're identical twins who, you know, became famous for certain striking precognitive predictions that they made depending."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-104",
+      "name": "Guy Lyon Playfair",
+      "status": "phonetic_variant_heard",
+      "window_start": 7426,
+      "window_end": 7441,
+      "transcript": "They like, for example, all the classic things that you see in studies of twin telepathy, let's say by Guy Leon Playfair and many other parapsychologists who've studied the phenomenon of twin telepathy over decades, they would wind up painting the same painting rough"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-105",
+      "name": "Stephen Braude",
+      "status": "indexed_name_not_secured",
+      "window_start": 7492,
+      "window_end": 7508,
+      "transcript": "possession in the archives of Ian Stevenson were analyzed very rigorously by Dr. Stephen Brody. He was the you know chair of the philosophy department of the University of Maryland Baltimore and also past president of the Parapsychological Association."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-106",
+      "name": "Friedrich Nietzsche",
+      "status": "phonetic_variant_heard",
+      "window_start": 7562,
+      "window_end": 7580,
+      "transcript": "functional personality that interacts in society, which interestingly is very much in line with how Frederick Nietzsche understood the human person. And Brody theorized that this structure of the human psyche is what makes mediumship possible,"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-107",
+      "name": "Closer Encounters",
+      "status": "indexed_name_not_secured",
+      "window_start": 1493,
+      "window_end": 1509,
+      "transcript": "He said, quote, 90% of UFOs that people have close encounters with are the U.S. flying saucer fleet. And he said they're staging half of the abductions. Whoa. And he also said..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-108",
+      "name": "Thanosis",
+      "status": "indexed_spelling_heard",
+      "window_start": 6218,
+      "window_end": 6233,
+      "transcript": "of the talk, it is a more significant part of the book that the talk was based on. The book is called Thanosis, which is a contraction of Thanatos for Death and Gnosis in Greek. And you know, this part of the book that I include..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-109",
+      "name": "Charles Fort",
+      "status": "phonetic_variant_heard",
+      "window_start": 8458,
+      "window_end": 8474,
+      "transcript": "in closer encounters called the shining stupidity and the reason I call that is has to do with something Charles Ford said Charles Ford believed this in his 1920s analysis of the closing counter phenomenon. He said we're property and What's going on here is akin to the British"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-110",
+      "name": "Apollonius of Tyana",
+      "status": "phonetic_variant_heard",
+      "window_start": 8854,
+      "window_end": 8870,
+      "transcript": "Christians at work in the world at that time who did these kinds of things, the most famous of them being Apollonius of Tiana. And we have a whole, like two volume book written by Philistratus, a notable Roman author about Apollonius of Tiana."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-111",
+      "name": "Philostratus",
+      "status": "phonetic_variant_heard",
+      "window_start": 8859,
+      "window_end": 8876,
+      "transcript": "famous of them being Apollonius of Tiana. And we have a whole two-volume book written by Philistratus, a notable Roman author, about Apollonius of Tiana and all the miracles he performed, which are exactly the same type of, you know..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-112",
+      "name": "Percy Bysshe Shelley",
+      "status": "indexed_spelling_heard",
+      "window_start": 9298,
+      "window_end": 9315,
+      "transcript": "catalytic myth, which captivated people like Shelley and Byron and, you know, I think it's constructive. Ultimately, I have no religious commitment whatsoever. I'm interested in under"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-113",
+      "name": "Lord Byron",
+      "status": "indexed_spelling_heard",
+      "window_start": 9298,
+      "window_end": 9315,
+      "transcript": "catalytic myth, which captivated people like Shelley and Byron and, you know, I think it's constructive. Ultimately, I have no religious commitment whatsoever. I'm interested in under"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-114",
+      "name": "Wardenclyffe",
+      "status": "indexed_spelling_heard",
+      "window_start": 2676,
+      "window_end": 2690,
+      "transcript": "developed a prototype for a Colorado Springs, and then he built one that was meant to be operational at Wardenclyffe on Long Island. And then J.P. Morgan screwed him and the tower got demolished and so forth. And this is not incidental at all because J.P. Morgan wound up coming..."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-115",
+      "name": "Thule",
+      "status": "phonetic_variant_heard",
+      "window_start": 561,
+      "window_end": 576,
+      "transcript": "3738, they had realized that, you know, Thula, Ultima Thula is Antarctica and Antarctica is essentially Atlantis. And so anyway, so you have this whole process take place."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-116",
+      "name": "Soratte bunker",
+      "status": "phonetic_variant_heard",
+      "window_start": 1264,
+      "window_end": 1280,
+      "transcript": "Well, I do think the magenta crash, which was in 1933, I think that saucer actually made its way to the Serrate bunker, which is outside of Rome. And then I think the Skoda works work was very real. And there's Victor Schauburger, who was recruited to work."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-117",
+      "name": "Ponza",
+      "status": "phonetic_variant_heard",
+      "window_start": 845,
+      "window_end": 860,
+      "transcript": "raids during Nazi Germany. He's the guy who went and rescued Mussolini from the prison on the island of Ponsa that the allies had put him in toward the end of the war and came back and got a medal from Hitler and so on and so forth. He was Hitler's favorite commander."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-118",
+      "name": "Škoda Works",
+      "status": "indexed_spelling_heard",
+      "window_start": 1085,
+      "window_end": 1102,
+      "transcript": "Now, General Hans Kamler of the SS was the head of the Skoda Works. And he was also Verne von Braun's boss. Verne von Braun was a major who worked under General Kamler."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-119",
+      "name": "United Kingdom",
+      "status": "indexed_name_not_secured",
+      "window_start": 389,
+      "window_end": 404,
+      "transcript": "with, you know, the Raj in India that we were discussing earlier, the Viceroy's local Indians who helped the British effectively maintain colonial control over India. I interpret the World Commerce Corporation along those lines."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-120",
+      "name": "John F. Kennedy",
+      "status": "indexed_spelling_heard",
+      "window_start": 1711,
+      "window_end": 1727,
+      "transcript": "That's interesting, yes Whoa, because it was raided right? During the JFK assassination right after the it wasn't a raid some some men in black types came into the office and spoke to"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-121",
+      "name": "US Department of Defense",
+      "status": "indexed_spelling_heard",
+      "window_start": 2233,
+      "window_end": 2249,
+      "transcript": "to detect anything entering our solar system and all of this stuff has to get screened by the DOD or now Department of War before you know ever being released to the public and he gets you know horrifically killed along with"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-122",
+      "name": "US Department of War",
+      "status": "indexed_spelling_heard",
+      "window_start": 2233,
+      "window_end": 2249,
+      "transcript": "to detect anything entering our solar system and all of this stuff has to get screened by the DOD or now Department of War before you know ever being released to the public and he gets you know horrifically killed along with"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-123",
+      "name": "IONS",
+      "status": "indexed_spelling_heard",
+      "window_start": 8978,
+      "window_end": 8994,
+      "transcript": "between the cultivation of higher consciousness and the dominance of the Abrahamic religions. Dean Raiden studied this at IONs, and he found that the witch persecutions and the execution of sorcerers in the Middle Ages was so bad."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-124",
+      "name": "Plato",
+      "status": "indexed_spelling_heard",
+      "window_start": 7870,
+      "window_end": 7885,
+      "transcript": "We have on the one hand, archontic controllers who are very much akin to the puppeteers in Plato's Cave. When you say archontic, like the archons in Gnostic belief that control the sort of lower material world. Yeah, well archon just means ruler."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-125",
+      "name": "Pleiades",
+      "status": "indexed_spelling_heard",
+      "window_start": 453,
+      "window_end": 470,
+      "transcript": "Now, if you're some benevolent Nordic from like the Pleiades and your material has crashed there and you know it's going to fall into the hands of the most totalitarian regime on the planet who probably will think"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-126",
+      "name": "Christchurch",
+      "status": "indexed_name_not_secured",
+      "window_start": 3971,
+      "window_end": 3987,
+      "transcript": "Yeah, neutrino detectors and emitters and stuff causing earthquakes like the New Zealand Earth Church earthquake exactly Which is what Puharich was worried about and so Puharich by the early 1980s Was going around with"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-128",
+      "name": "Dose",
+      "status": "indexed_spelling_heard",
+      "window_start": 2470,
+      "window_end": 2487,
+      "transcript": "Before we dive into this wild episode, I want to give a huge thank you to one of today's sponsors, Dose. Dose for your liver is a high-quality liquid supplement designed to support healthy liver function. It's super easy to incorporate into your routine."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-129",
+      "name": "Wang's widow",
+      "status": "indexed_name_not_secured",
+      "window_start": 5657,
+      "window_end": 5673,
+      "transcript": "of, you know, atomic special weapons stuff. And Bill Steinman shows up at his house after he had passed. I believe his wife then says to Steinman, I think it was Eric, Eric Henry Wing worked for a guy and his initials were H-A-K."
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-130",
+      "name": "Rolf Landauer",
+      "status": "indexed_spelling_heard",
+      "window_start": 6616,
+      "window_end": 6633,
+      "transcript": "had as the point of departure for his theorization Rolf Landauer's equation that basically takes the bit that was conceptualized by Claude Shannon and establishes a relationship between this basic unit of"
+    },
+    {
+      "id": "e6-listen-audit-ambiguity-131",
+      "name": "John O'Neill",
+      "status": "indexed_spelling_heard",
+      "window_start": 2590,
+      "window_end": 2607,
+      "transcript": "In 1976, first of all, Pujaric knew this guy, John O'Neill, who had known Tesla and had written an early biography of Tesla. He knew this guy personally. Well, that's all for today, and I'll see you in the next one."
+    }
+  ]
+}
