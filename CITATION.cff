@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Manticore / Jorjani Atlas"
+message: "If you use this atlas, cite it as below. A citation does not endorse the interview allegations."
+type: dataset
+authors:
+  - name: "Manticore Research Atlas"
+version: "9.0.0"
+date-released: "2026-10-29"
+license: CC-BY-4.0
+repository-code: "https://github.com/Lucastil2212/jorjani-atlas"
+abstract: >-
+  A source-linked research atlas of three American Alchemy conversations with
+  Jason Reza Jorjani, plus documentary comparisons. Edition 9 records 2,229
+  entities, 2,271 attributed claims, and 259 document records. Interview
+  statements stay attributed. Documentary citations do not authenticate
+  extraordinary allegations. Ninety spoken-name targets remain audio-unverified.
+keywords:
+  - research atlas
+  - knowledge graph
+  - source criticism
+  - American Alchemy
+  - Jason Reza Jorjani

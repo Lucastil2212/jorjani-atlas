@@ -1,39 +1,84 @@
-# Manticore / Jorjani Atlas — Edition 9 source code
+# Manticore / Jorjani Atlas
 
-This repository is reconstructed **from the Edition 9 portable atlas**. The application source was previously packaged in a single HTML file; this extraction preserves its original application logic and styles while loading data separately for web hosting. This is **not** a copy of the earlier site's unavailable private Git source checkout, and it does not claim that Edition 9 is already deployed to the historical ChatGPT Sites URL.
+A public research atlas of three American Alchemy conversations with Jason Reza Jorjani, and of the documents those conversations cite or imply. The atlas keeps interview statements and later documentary checks in separate evidence layers. A record being included means it was indexed, not that it is true.
 
-## Layout
+**Edition 9** · 2,229 entities · 2,271 attributed claims · 259 document records · 121 research sources
 
-- `index.html` — deployable application entrypoint and page markup
-- `assets/css/` — base, graph, default light/dark theme and charts
-- `assets/js/` — theme switching, directed graph renderer, insight visualizations, application and evidence drawers
-- `data/atlas.json` — the complete Edition 9 dataset; `schema.json` is the collection schema
-- `offline/atlas_explorer.html` — the original **single-file, offline-capable** Edition 9 explorer, including embedded dataset
-- `research/` — archival reports, research source registry, provenance, and weighted graph exports
-- `scripts/validate.py` — static source and data integrity checks
+The interface is a static site: search, a directed knowledge graph, a claim register, a timeline, source documents, and the review ledgers from Editions 3–9. `data/atlas.json` is the dataset. `offline/atlas_explorer.html` is the same edition in one file and can be opened from disk.
+
+## How to read a record
+
+- **Conversation** claims are attributed to a speaker, a video, and a timestamp. They include assertions, hypotheses, reported testimony, questions, and advertisements.
+- **Documentary research** claims cite a book, archive, paper, or catalog record. They say what that source contains. They do not promote an interview allegation into a finding.
+- Edge numbers count distinct supporting claims. They are not probabilities and they are not independent corroboration.
+- Full transcripts stay with their publishers. This repository stores locators, paraphrases, and short attributed statements (`meta.transcript_redistribution` is false).
 
 ## Run locally
 
-Use any static HTTP server (direct `file://` navigation does not work for the modular edition because of browser restrictions on `fetch`):
+The modular site loads `data/atlas.json` with `fetch`, so open it through a local server:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000/`. The `offline/atlas_explorer.html` version can instead be opened directly from disk.
+Then visit `http://localhost:8000/`.
 
-## Deploy to the existing site
+Check the dataset before you publish a change:
 
-The existing site is `https://manticore-jorjani-atlas.manticube-ga-7573.chatgpt.site` (owner-only access at its previous published revision). This source package is **deployment-ready**, but publishing to that same URL requires the ChatGPT Sites source-repository/deploy integration or repository credentials from the owner's current authenticated Sites session.
+```sh
+python3 scripts/validate.py
+```
 
-When that integration is accessible, upload the **contents of this repository root** (or put them in the site's configured deployment root), deploy as a static website and verify the site displays `Edition 9` and 2,229 entities / 2,271 claims. Do not switch an owner-only site to a public access mode.
+## Publish
 
-For generic static hosts such as Cloudflare Pages, Netlify or Render Static Sites, use this repository root as the publish directory; no build command or Node dependencies are needed. It is currently designed to load all data in one JSON request, so enable Brotli/gzip and long-lived caching if the host provides them. Do not publish the research dataset publicly without explicitly choosing that access policy.
+This repository is the public source. Host the repository root as a static site. There is no build step and no Node dependency.
 
-## Evidence policy
+- **GitHub Pages:** in the repository settings, deploy from the branch root. `index.html` is the entrypoint. `.nojekyll` is included so Pages serves the directory as-is.
+- **Any other static host** (Cloudflare Pages, Netlify, Render): publish this directory with no build command. Enable gzip or Brotli for `data/atlas.json`.
 
-All interview statements remain attributed. The documentary research adds evidence about source identity and historical records, **not** proof of extraordinary allegations. See `research/EDITION9_HISTORICAL_BOUNDARY.md` and the data's evidence/status fields. The 90 phonetic/name targets remain audio-unverified.
+Confirm the homepage shows Edition 9, the evidence graph, and the public-research notice. Open Coverage and read **What this atlas still does not establish.**
 
-## Rights
+An earlier owner-only ChatGPT Sites deployment is not this repository and is not updated by publishing here.
 
-This is user-controlled project source and research data. No open-source license is granted in this archive. Linked archival material, transcript snippets and original platform components remain subject to their respective rights.
+## What this public edition adds
+
+The Edition 9 historical-boundary review is preserved. The publication pass fills gaps that were already inside the collection:
+
+- Every entity now has a summary. Where the card was blank, the summary quotes one attributed claim and labels its assertion type. It is not an independent biography.
+- Two documentary entities that had no links — *Admonitio generalis* (789) and the December 1947 Horten intelligence memoranda — now point at the claims, sources, and document cards that already described them.
+- The growth table includes Editions 7, 8, and 9. Edition 7 kept the Edition 6 counts and recorded source verdicts. Editions 8 and 9 added the historical-boundary claims.
+- `data/schema.json` now names `primary_segments`, `audit`, and `research_trails`, which the dataset already contained.
+- Coverage lists the limits that are still open.
+
+## Known limits
+
+These are recorded in `meta.known_gaps` and on the Coverage page. They were not closed by guessing.
+
+| Limit | What would close it |
+| --- | --- |
+| 90 spoken-name targets, none listened to | Listen to the timecoded passage and record the spoken form |
+| Six historical originals still required | The closure line on each Edition 9 dossier (Bahnson intelligence role, medieval aerial-reporting edict, full Puharich manuscript, the interview’s exact 1947 document copy, Vatican/Magenta custody, Stephenson–Brown telegram) |
+| 221 claims with no typed relationship | Add an edge only when the wording names both endpoints |
+| Six document cards with no exact public URL | An item-level catalog record for the specific work, not a category page |
+
+The existence of an archival file does not authenticate the extraordinary claim that cites it.
+
+## Layout
+
+- `index.html` — site entrypoint
+- `assets/css/`, `assets/js/` — theme, graph, charts, and the application
+- `data/atlas.json` — dataset; `data/schema.json` — collection schema
+- `offline/atlas_explorer.html` — single-file explorer, including the dataset
+- `research/` — edition reports, source registry, and graph exports
+- `scripts/validate.py` — referential integrity and publication checks
+- `SHA256SUMS.txt` — checksums for this tree
+
+## License
+
+Original application code is [MIT](LICENSE). The original research compilation is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Recordings, captions, and third-party documents are not relicensed. See `LICENSE`.
+
+`package.json` is marked `private` so this project is not published to npm. That flag does not hide the GitHub repository.
+
+## Citation
+
+See `CITATION.cff`. The citation URL is `https://github.com/Lucastil2212/jorjani-atlas`. A citation does not endorse the interview allegations.

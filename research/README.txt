@@ -1,3 +1,5 @@
+Public documentation for this repository is in the root README. This note is the Edition 9 research summary.
+
 MANTICORE JORJANI ATLAS — EDITION 9
 
 Open atlas_explorer.html and select Historical evidence. Six new source-verification dossiers appear before the Edition 8 dossiers. All original claim, entity, source and audit data remains bundled. See EDITION9_HISTORICAL_BOUNDARY.md and edition9_historical_boundary.csv.

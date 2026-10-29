@@ -44,6 +44,22 @@
         "$ref": "#/$defs/segment"
       }
     },
+    "primary_segments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/segment"
+      }
+    },
+    "audit": {
+      "type": "object"
+    },
+    "research_trails": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "description", "seed_ids"]
+      }
+    },
     "research_sources": {
       "type": "array",
       "items": {

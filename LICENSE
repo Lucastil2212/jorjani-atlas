@@ -1,0 +1,27 @@
+Manticore / Jorjani Atlas — public research release
+
+Copyright (c) 2026 Manticore Research Atlas contributors
+
+This repository is published so it can be read and reused in public. Two licenses apply. Third-party material is excluded from both.
+
+1. Original application code is under the MIT License.
+   Covered files: index.html, assets/, scripts/, and package.json.
+
+2. Original research compilation is under Creative Commons Attribution 4.0 International (CC BY 4.0).
+   Covered files: data/atlas.json annotations and structure, data/schema.json, project documentation, and the research notes written for this atlas.
+   CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+   Credit the atlas and do not imply that a citation endorses an interview allegation.
+
+Not licensed here: American Alchemy recordings, YouTube captions, podcast transcripts, and third-party books, articles, and archival scans. Those remain with their rights holders. This atlas stores locators, paraphrases, and short attributed statements. It does not redistribute full transcripts (see meta.transcript_redistribution in data/atlas.json).
+
+Linking a source does not establish the extraordinary claims discussed in the interviews.
+
+---
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of the application code in this repository and associated documentation files, to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

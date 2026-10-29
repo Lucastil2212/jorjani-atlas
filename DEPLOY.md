@@ -1,11 +1,35 @@
-# Deployment checklist
+# Publishing the atlas
 
-1. Confirm you are deploying into the **same private site project**, rather than creating a public copy. Avoid revealing private source trails by default.
-2. Preserve existing ChatGPT Sites access controls. This package does not modify access permissions.
-3. Deploy the repository root as a static site. A build tool is not required. **Do not** deploy the ZIP itself as a single asset.
-4. Confirm `/` serves `index.html`, `/assets/js/app.js` is HTTP 200, and `/data/atlas.json` is HTTP 200 with JSON MIME type.
-5. Visit the site's homepage and confirm `Edition 9` plus the evidence graph. Test Overview, Knowledge graph, Claim register, Timeline, Source documents and Historical evidence.
-6. Check that graph edge counts and document citations open correctly; test both light and dark modes.
-7. Validate against `python3 scripts/validate.py` before deploying and retain the old deployment as a rollback option.
+The site is static. Publish the repository root. Do not upload a zip as the site, and do not run a build.
 
-Note: the ChatGPT Sites publisher was not available through the tools in the session that created this source archive, so **this archive by itself does not update the prior live website**.
+## Before you publish
+
+```sh
+python3 scripts/validate.py
+python3 -m http.server 8000
+```
+
+In a browser, confirm:
+
+1. `/` serves the atlas and the sidebar says **Public research edition**.
+2. The footer names Edition 9, 2,271 attributed records, 3 conversations, and 121 research sources.
+3. Overview, Knowledge graph, Claim register, Timeline, Source documents, and Historical evidence open.
+4. Coverage shows **What this atlas still does not establish** and a growth table through Edition 9.
+5. Light and dark modes both render the graph.
+6. A claim drawer opens a source link, and an entity card shows a summary.
+
+## GitHub
+
+1. Create a public repository and push this directory.
+2. Set the repository description to: `Source-linked atlas of three American Alchemy conversations and their documentary evidence`.
+3. Suggested topics: `research`, `knowledge-graph`, `static-site`.
+4. Under Settings → Pages, deploy from the branch root. `.nojekyll` is already present.
+5. Put the resulting Pages URL into `CITATION.cff` (`repository-code`) if you want a machine-readable citation.
+
+## Other static hosts
+
+Cloudflare Pages, Netlify, and Render Static Sites can use this directory with an empty build command. Turn on compression for `data/atlas.json` (about 26 MB). The app requests that file with `cache: no-cache` so a later dataset update is revalidated.
+
+## What publishing does not do
+
+Publishing this repository does not change any earlier private site. It also does not mark the 90 audio targets as listened to, and it does not supply the six historical originals listed on the Coverage page.
