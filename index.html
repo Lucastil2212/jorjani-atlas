@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f5f0">
+  <meta name="description" content="Explore entities, claims, relationships, documents, and historical timelines across three Jason Jorjani conversations on American Alchemy.">
+  <title>Manticore · Jorjani Atlas</title>
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/graph.css">
+  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="assets/css/insights.css">
+  <script src="assets/js/theme.js"></script>
+  
+  
+  
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar" aria-label="Primary navigation">
+    <a class="brand" href="#overview" aria-label="Manticore Atlas home"><span class="brand-mark">M<span>·</span></span><span>MANTICORE<small>RESEARCH ATLAS</small></span></a>
+    <div class="case-label"><span class="signal-dot"></span> COLLECTION 001</div>
+    <div class="collection-name">The Jorjani<br>conversations</div>
+    <div class="nav-label">EXPLORE</div>
+    <nav id="navigation"></nav>
+    <div class="sidebar-footer"><div class="small-caps">WORKING WORLDVIEW</div><p>Follow the account.<br>Trace the source.</p><span class="private-badge"><span class="signal-dot"></span> Private research workspace</span><button class="text-button sidebar-help" data-action="methodology">About this collection ↗</button></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="breadcrumb">COLLECTIONS <span>/</span> <strong>JORJANI ATLAS</strong></div>
+      <label class="global-search"><span aria-hidden="true">⌕</span><input id="global-search" type="search" placeholder="Search the collection…" aria-label="Search the collection"><kbd>/</kbd></label>
+      <button class="button subtle compact theme-switch" id="theme-toggle" aria-label="Switch to dark mode" aria-pressed="false"><span aria-hidden="true">☾</span><span class="theme-label">Dark</span></button>
+      <button class="button subtle compact" data-action="export-all"><span aria-hidden="true">↓</span> Export data</button>
+    </header>
+    <main id="main" tabindex="-1"><div class="loading"><span class="spinner"></span><h1>Opening the atlas</h1><p>Loading the source register and knowledge graph.</p></div></main>
+    <footer class="workspace-footer"><span>MANTICORE TECHNOLOGIES <span class="footer-dot">·</span> INDEPENDENT RESEARCH</span><span id="footer-status">Source-linked corpus</span></footer>
+  </div>
+  <div id="drawer-shade" class="drawer-shade" hidden></div>
+  <aside id="detail-drawer" class="detail-drawer" role="dialog" aria-modal="true" aria-label="Record details" hidden></aside>
+  <div id="toast" class="toast" role="status" hidden></div>
+<!-- Dataset is loaded from data/atlas.json by assets/js/app.js. -->
+<script src="assets/js/graph.js"></script>
+<script src="assets/js/insights.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

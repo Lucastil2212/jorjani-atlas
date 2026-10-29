@@ -1,0 +1,839 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Manticore Jorjani Atlas dataset",
+  "type": "object",
+  "required": [
+    "meta",
+    "sources",
+    "entities",
+    "claims",
+    "documents",
+    "segments"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "documents": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/document"
+      }
+    },
+    "segments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/segment"
+      }
+    },
+    "research_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "url",
+          "publisher",
+          "source_kind",
+          "locator"
+        ]
+      }
+    },
+    "final_audit": {
+      "type": "object",
+      "required": [
+        "edition",
+        "reviewed_date",
+        "input_counts",
+        "reviewed_total",
+        "claim_dispositions",
+        "entity_dispositions",
+        "document_dispositions",
+        "provenance_check"
+      ],
+      "properties": {
+        "edition": {
+          "type": "integer"
+        },
+        "reviewed_total": {
+          "type": "integer"
+        },
+        "claim_dispositions": {
+          "type": "array"
+        },
+        "entity_dispositions": {
+          "type": "array"
+        },
+        "document_dispositions": {
+          "type": "array"
+        }
+      }
+    },
+    "research_questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_id",
+          "issue",
+          "status",
+          "outcome",
+          "next_step"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "outcome": {
+            "type": "string"
+          },
+          "next_step": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "limits_review": {
+      "type": "object",
+      "required": [
+        "edition",
+        "reviewed_date",
+        "reviewed_total",
+        "input_counts",
+        "outcome_counts",
+        "document_dispositions",
+        "question_dispositions",
+        "entity_dispositions",
+        "limitations"
+      ],
+      "properties": {
+        "edition": {
+          "const": 4
+        },
+        "reviewed_total": {
+          "type": "integer"
+        },
+        "input_counts": {
+          "type": "object"
+        },
+        "outcome_counts": {
+          "type": "object"
+        },
+        "document_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "question_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "entity_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        }
+      }
+    },
+    "sweep_review": {
+      "type": "object",
+      "required": [
+        "edition",
+        "reviewed_date",
+        "reviewed_total",
+        "input_counts",
+        "outcome_counts",
+        "document_dispositions",
+        "question_dispositions",
+        "entity_dispositions",
+        "limitations",
+        "claim_dispositions",
+        "question_inventory",
+        "baseline_counts",
+        "after_counts"
+      ],
+      "properties": {
+        "edition": {
+          "const": 5
+        },
+        "reviewed_total": {
+          "type": "integer"
+        },
+        "input_counts": {
+          "type": "object"
+        },
+        "outcome_counts": {
+          "type": "object"
+        },
+        "document_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "question_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "entity_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "claim_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "question_inventory": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "status",
+              "review_depth",
+              "source_id",
+              "issue",
+              "next_step"
+            ]
+          }
+        }
+      }
+    },
+    "timeline_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "claim_id",
+          "source_id",
+          "evidence_layer",
+          "event_date",
+          "event_year",
+          "date_precision",
+          "date_role"
+        ]
+      }
+    },
+    "closure_review": {
+      "type": "object",
+      "required": [
+        "edition",
+        "reviewed_date",
+        "reviewed_total",
+        "input_counts",
+        "outcome_counts",
+        "document_dispositions",
+        "question_dispositions",
+        "entity_dispositions",
+        "limitations",
+        "claim_dispositions",
+        "question_inventory",
+        "baseline_counts",
+        "after_counts",
+        "closed_document_ids",
+        "audio_review_queue",
+        "unlinked_segment_dispositions"
+      ],
+      "properties": {
+        "edition": {
+          "const": 6
+        },
+        "reviewed_total": {
+          "type": "integer"
+        },
+        "input_counts": {
+          "type": "object"
+        },
+        "outcome_counts": {
+          "type": "object"
+        },
+        "document_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "question_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "entity_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "claim_dispositions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "target_id",
+              "kind",
+              "title",
+              "status",
+              "outcome_class",
+              "new_information",
+              "research_actions",
+              "next_step"
+            ]
+          }
+        },
+        "question_inventory": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "status",
+              "review_depth",
+              "source_id",
+              "issue",
+              "next_step"
+            ]
+          }
+        }
+      }
+    },
+    "closure_inventory": {
+      "type": "object",
+      "required": [
+        "edition",
+        "complete",
+        "collections",
+        "residual_target_ids"
+      ],
+      "properties": {
+        "edition": {
+          "const": 6
+        },
+        "complete": {
+          "type": "boolean"
+        },
+        "collections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "collection",
+              "count",
+              "expected_count",
+              "ids",
+              "sha256"
+            ]
+          }
+        }
+      }
+    },
+    "final_verification": {
+      "type": "object",
+      "required": [
+        "edition",
+        "documents",
+        "sources",
+        "audio_targets",
+        "verification_rules"
+      ],
+      "properties": {
+        "edition": {
+          "const": 7
+        },
+        "documents": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {
+            "type": "object"
+          }
+        },
+        "sources": {
+          "type": "object"
+        },
+        "audio_targets": {
+          "type": "array",
+          "minItems": 90,
+          "maxItems": 90,
+          "items": {
+            "type": "object"
+          }
+        },
+        "broader_audio_issues": {
+          "type": "array"
+        },
+        "summary": {
+          "type": "object"
+        }
+      }
+    },
+    "historical_evidence": {
+      "type": "object",
+      "required": [
+        "edition",
+        "dossiers",
+        "audio_triage",
+        "source_registry"
+      ],
+      "properties": {
+        "edition": {
+          "const": 8
+        },
+        "dossiers": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {
+            "type": "object"
+          }
+        },
+        "audio_triage": {
+          "type": "array",
+          "minItems": 90,
+          "maxItems": 90,
+          "items": {
+            "type": "object"
+          }
+        },
+        "source_registry": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "historical_boundary_e9": {
+      "type": "object",
+      "required": [
+        "edition",
+        "dossiers",
+        "audio_targets"
+      ],
+      "properties": {
+        "edition": {
+          "const": 9
+        },
+        "dossiers": {
+          "type": "array",
+          "minItems": 6
+        },
+        "audio_targets": {
+          "type": "integer",
+          "minimum": 90
+        }
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "url",
+        "timestamp_basis",
+        "segment_count",
+        "reviewed_segment_count",
+        "limitations"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "timestamp_basis": {
+          "type": "string"
+        },
+        "duration_seconds": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "segment_count": {
+          "type": "integer"
+        },
+        "reviewed_segment_count": {
+          "type": "integer"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "entity": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "type",
+        "aliases",
+        "source_ids",
+        "claim_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "segment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "required": [
+        "id",
+        "source_id",
+        "text",
+        "speaker",
+        "epistemic_status",
+        "entity_ids",
+        "segment_ids",
+        "event_year",
+        "timestamp_basis",
+        "evidence_layer"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "speaker": {
+          "type": "string"
+        },
+        "epistemic_status": {
+          "type": "string"
+        },
+        "entity_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "segment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "document_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "start": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "end": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "event_year": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "timestamp_basis": {
+          "type": "string"
+        },
+        "subject_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "object_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_layer": {
+          "type": "string",
+          "enum": [
+            "conversation",
+            "external_research"
+          ]
+        }
+      }
+    },
+    "document": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "relationship",
+        "claim_ids",
+        "source_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "relationship": {
+          "type": "string"
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "resolution_status": {
+          "type": "string"
+        },
+        "access_type": {
+          "type": "string"
+        },
+        "needs_exact_source": {
+          "type": "boolean"
+        },
+        "research_evidence": {
+          "type": "array"
+        }
+      }
+    },
+    "segment": {
+      "type": "object",
+      "required": [
+        "id",
+        "source_id",
+        "start",
+        "review_status",
+        "claim_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "start": {
+          "type": "number"
+        },
+        "review_status": {
+          "type": "string"
+        },
+        "claim_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "word_count": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

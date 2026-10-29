@@ -1,0 +1,21 @@
+EDITION 9 HISTORICAL BOUNDARY REVIEW
+{
+  "edition": 9,
+  "entities": 2229,
+  "claims": 2271,
+  "conversation_claims": 2127,
+  "documentary_claims": 144,
+  "typed_relations": 3455,
+  "unique_directed_relationships": 3385,
+  "documents": 259,
+  "research_sources": 121,
+  "timeline_events": 399,
+  "dossiers": 6,
+  "audio_targets": 90,
+  "audio_listened": 0,
+  "sources_added": 12,
+  "documentary_claims_added": 14,
+  "previous_claims_preserved": 2257
+}
+
+All six documentary gaps have attributed status; original extraordinary items not authenticated. All 90 audio names unlistened. Portable explorer opens locally with light mode as default.
